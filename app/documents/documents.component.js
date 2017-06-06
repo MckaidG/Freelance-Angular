@@ -8,6 +8,32 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@angular/core");
 let DocumentsComponent = class DocumentsComponent {
+    constructor() {
+        this.pageTitle = "Document Dashboard";
+        this.documents = [
+            {
+                title: 'My first Doc',
+                description: 'adfadsfdfasdfd',
+                file_url: 'http://google.com',
+                updated_at: '11/11/16',
+                image_url: 'http://google.com'
+            },
+            {
+                title: 'My sfg Doc',
+                description: 'adfadsfdfasdfd',
+                file_url: 'http://google.com',
+                updated_at: '11/11/16',
+                image_url: 'http://google.com'
+            },
+            {
+                title: 'My first Doc',
+                description: 'adfadsfdfasdfd',
+                file_url: 'http://google.com',
+                updated_at: '11/11/16',
+                image_url: 'http://google.com'
+            }
+        ];
+    }
 };
 DocumentsComponent = __decorate([
     core_1.Component({
